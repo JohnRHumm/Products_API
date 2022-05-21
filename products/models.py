@@ -7,5 +7,5 @@ class Product(models.Model):
     title = models.CharField(max_length=255)
     description = models.CharField(max_length=255)
     price = models.DecimalField(max_digits=8, decimal_places=2)
-    inventory_qunatity = models.IntegerField()
+    inventory_quantity = models.ImageField()
     web_pic = models.URLField(max_length=200)
